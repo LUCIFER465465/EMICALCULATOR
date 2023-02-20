@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="amount"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/interest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="interest"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="month"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="calculate"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Emi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Emi"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/txtAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="total amount"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/txtInterest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="total intrest"
+        android:textSize="30dp" />
+
+
+</LinearLayout>
