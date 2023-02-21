@@ -47,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 double ans = amt * r* (calculate/(calculate-1));
-
                 Emi.setText("Emi = "+ans);
                 double total = ans*mon;
                 txtAmount.setText("Total Amount");
