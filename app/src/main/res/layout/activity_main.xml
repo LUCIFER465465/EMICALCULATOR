@@ -10,22 +10,25 @@
         android:id="@+id/amount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="amount"
-        android:textSize="20dp" />
+        android:hint="amount"
+        android:textSize="20dp"
+        android:inputType="number"/>
 
     <EditText
         android:id="@+id/interest"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="interest"
-        android:textSize="20dp" />
+        android:hint="interest"
+        android:textSize="20dp"
+        android:inputType="number"/>
 
     <EditText
         android:id="@+id/month"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="month"
-        android:textSize="20dp" />
+        android:hint="month"
+        android:textSize="20dp"
+        android:inputType="number"/>
 
     <Button
         android:id="@+id/calculate"
@@ -39,21 +42,21 @@
         android:id="@+id/Emi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Emi"
+
         android:textSize="30dp" />
 
     <TextView
         android:id="@+id/txtAmount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="total amount"
+
         android:textSize="30dp" />
 
     <TextView
         android:id="@+id/txtInterest"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="total intrest"
+
         android:textSize="30dp" />
 
 
