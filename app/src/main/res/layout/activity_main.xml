@@ -42,21 +42,21 @@
         android:id="@+id/Emi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+android:layout_gravity="center"
         android:textSize="30dp" />
 
     <TextView
         android:id="@+id/txtAmount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:layout_gravity="center"
         android:textSize="30dp" />
 
     <TextView
         android:id="@+id/txtInterest"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:layout_gravity="center"
         android:textSize="30dp" />
 
 
